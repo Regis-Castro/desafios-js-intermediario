@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  align-items: center;
+  background-image: url('../images/bg-repeat.jpg');
+  display: flex;
+  height: 402px;
+  justify-content: space-around;
+  margin: 7vh auto;
+  width: 800px;
+  
+}
+
+.duvida {
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 23.5px;
+}
+
+.campos-obrigatorios {
+  font-size: 1.5rem;
+  margin-top: 7px;
+} 
+
+form {
+  background-color: #FFFFFF;
+  height: 378px;
+  padding: 20px;
+  width: 340px;
+}
+
+.obrigatorio {
+  color: #F52E2E;
+  font-size: 8px;
+  margin: 0;
+}
+
+input, textarea {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 6px;
+  padding: 10px;
+  width: 298px;
+}
+
+input {
+  height: 35px;
+}
+
+input:first-child {
+  margin-top: 0;
+}
+
+input::placeholder, textarea::placeholder {
+  color:#A8A8A8;
+  font-size: 1.5rem; 
+  font-weight: 700;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #3CCC87;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 41px;
+  margin-top: 11px;
+}
+
+.escondido {
+  visibility: hidden;
+}
+
+.borda-vermelha {
+  border: 1px solid #F52E2E;
+}
+
+.borda-verde {
+  border: 1px solid #00C22B;
+}

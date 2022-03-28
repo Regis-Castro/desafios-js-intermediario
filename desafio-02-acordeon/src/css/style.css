@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: #FCFCFC;
+  border-radius: 21px;
+  box-shadow: 0 20px 20px -10px rgba(0, 0, 0, .25);
+  height: 347px;
+  margin: 8vh auto;
+  position: relative;
+  width: 655px;
+}
+
+.homem {
+  height: 293px;
+  left: -90px;
+  top: 33px;
+  position: absolute;
+  width: 278px;
+}
+
+.faq {
+  position: absolute;
+  top: 60px;
+  right: 37px;
+  width: 390px;
+}
+
+.pergunta {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+h2 {
+  display: inline;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+  width: 347px;
+}
+
+.seta {
+  height: 9px;
+  margin-right: 13px;
+  width: 15px;
+}
+
+.separador {
+  border-bottom: 1px solid #D4D4D4;
+  margin: 15px 0px;
+}
+
+.escondido {
+  display: none;
+}

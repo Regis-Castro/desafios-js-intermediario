@@ -1,0 +1,86 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 1080px;
+  margin: 7vh auto;
+  max-width: 1920px;
+}
+
+.slides {
+  position: relative;
+}
+
+.seta {
+  cursor: pointer;
+  height: 78px;
+  position: absolute;
+  top: 501px;
+  width: 49px;
+  transition: .5s;  
+}
+
+.seta-opaca {
+  opacity: 50%;
+}
+
+.seta-esquerda {
+  left: 77px;
+  transform: rotateY(180deg);
+}
+
+.seta-direita {
+  right: 69px;
+}
+
+.informacoes {
+  background-color: #FFFFFF;
+  height: 700px;
+  left: 180px;
+  position: absolute;
+  top: 186px;
+  width: 620px; 
+}
+
+.informacoes div:only-child {
+  margin: 65px 60px auto;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 81px;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 45px;
+}
+
+a {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.slide-01 a {
+  color: #C50000;
+}
+
+.slide-02 a {
+  color: #D9DD10;
+}
+
+.slide-03 a {
+  color: #A63A17;
+}
+
+.slide-04 a {
+  color: #10ACDD;
+}
+
+.escondido {
+  display: none;
+}

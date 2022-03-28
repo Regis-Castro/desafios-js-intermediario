@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="duvida">
+      <h2>Ficou com dúvida?</h2>
+      <h2>Nos mande uma mensagem!</h2>
+
+      <p>caso tenha ficado com qualquer dúvida
+        <br>
+        basta nos mandar uma mensagem e
+        <br>
+        entraremos em contato em menos de 24h.
+      </p>
+    </div>
+
+    <form method="GET" action="index.html" enctype="multipart/form-data">
+      <input class="requerido" type="text" placeholder="Nome completo *">
+      <p class="obrigatorio escondido">campo obrigatório</p>
+      
+      <input  class="requerido" type="email" placeholder="Email *">
+      <p class="obrigatorio escondido">campo obrigatório</p>
+
+      <input  class="requerido" type="number" placeholder="Telefone *">
+      <p class="obrigatorio escondido">campo obrigatório</p>
+
+     <textarea  class="requerido" placeholder="Mensagem *"></textarea>
+
+     <p class="obrigatorio escondido">campo obrigatório</p>
+     <p class="campos-obrigatorios">* campos obrigatórios</p>
+     
+     <input type="submit" value="Enviar">
+    </form>
+
+  </div>
+
+  <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>
