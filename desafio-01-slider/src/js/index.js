@@ -13,32 +13,23 @@ function mostrarImagem() {
   slides[imagemAtual].classList.remove('escondido')
 }
 
-function setaEsquerdaNitida() {
-  setaEsquerda.classList.remove('seta-opaca')
+function setaNitida(seta) {
+  seta.classList.remove('seta-opaca')
 }
 
-function setaEsquerdaOpaca() {
-  setaEsquerda.classList.add('seta-opaca')
+function setaOpaca(seta) {
+  seta.classList.add('seta-opaca')
 }
-
-function setaDireitaNitida() {
-  setaDireita.classList.remove('seta-opaca')
-}
-
-function setaDireitaOpaca() {
-  setaDireita.classList.add('seta-opaca')
-}
-
 
 setaDireita.addEventListener('click', function () {
   if (imagemAtual == 0) {
-    setaEsquerdaNitida()
+    setaNitida(setaEsquerda)
 
   }
  
 
   if (imagemAtual == slides.length - 2) {
-    setaDireitaOpaca()
+    setaOpaca(setaDireita)
   }
 
 
@@ -53,12 +44,12 @@ setaDireita.addEventListener('click', function () {
 
 setaEsquerda.addEventListener('click', function () {
   if (imagemAtual == 1) {
-    setaEsquerdaOpaca()
+    setaOpaca(setaEsquerda)
   }
 
 
   if (imagemAtual <= slides.length - 1 && imagemAtual > 0) {
-    setaDireitaNitida()
+    setaNitida(setaDireita)
 
     imagemAtual--
     esconderImagens()
