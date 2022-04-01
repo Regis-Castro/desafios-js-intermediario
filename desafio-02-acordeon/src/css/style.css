@@ -25,6 +25,12 @@ body {
   width: 278px;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
 .faq {
   position: absolute;
   top: 60px;
@@ -33,22 +39,24 @@ body {
 }
 
 .pergunta {
+  align-items: center;
   cursor: pointer;
   display: flex;
+  font-weight: 500;
   justify-content: space-between;
-  align-items: center;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 14px;
+.resposta {
+  display: none;
+}
+
+.mostrar {
+  display: block;
 }
 
 h2 {
   display: inline;
   font-size: 17px;
-  font-weight: 500;
 }
 
 p {

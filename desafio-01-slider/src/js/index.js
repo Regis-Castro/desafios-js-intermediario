@@ -5,12 +5,12 @@ let imagemAtual = 0
 
 function esconderImagens() {
   slides.forEach(item => {
-    item.classList.add('escondido')
+    item.classList.remove('mostrar')
   })
 }
 
 function mostrarImagem() {
-  slides[imagemAtual].classList.remove('escondido')
+  slides[imagemAtual].classList.add('mostrar')
 }
 
 function setaNitida(seta) {
@@ -56,4 +56,3 @@ setaEsquerda.addEventListener('click', function () {
     mostrarImagem()
   }
 })
-

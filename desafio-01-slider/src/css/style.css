@@ -13,6 +13,18 @@ body {
   position: relative;
 }
 
+.slide {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
 .seta {
   cursor: pointer;
   height: 78px;

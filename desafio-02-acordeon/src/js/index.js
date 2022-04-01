@@ -4,7 +4,7 @@ const setas = document.querySelectorAll('.seta')
 
 function esconderRespostas() {
   respostas.forEach(item => {
-    item.classList.add('escondido')
+    item.classList.remove('mostrar')
   })
 }
 
@@ -19,7 +19,7 @@ perguntas.forEach((item, index) => {
     esconderRespostas()
     acinzentarSetas()
 
-    respostas[index].classList.remove('escondido')
+    respostas[index].classList.add('mostrar')
     setas[index].setAttribute('src', 'src/images/seta-laranja.png')
   })
 })
